@@ -287,3 +287,7 @@ The [`docs/`](docs/README.md) directory goes deeper on specific topics:
 
 See also [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md),
 and [`CHANGELOG.md`](CHANGELOG.md).
+
+## Fix for Issue #198: Missing tests for subscription tier changes
+
+Add integration tests covering subscription tier transitions including upgrades, downgrades, and expiry edge cases. Untested tier changes have caused billing discrepancies.
